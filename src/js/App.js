@@ -1,11 +1,8 @@
 import $ from 'jquery';
-import bootstrap from 'bootstrap';
-import popper from 'popper.js';
 import Swiper from 'swiper';
 
 
 window.$ = window.jQuery = $;
-window.popper = popper;
 window.Swiper = Swiper;
 
 //Base
