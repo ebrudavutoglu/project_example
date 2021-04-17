@@ -1,0 +1,13 @@
+.section{
+    padding: 50px 0;
+    &-header{
+        text-align: center;
+        margin-bottom: 30px;
+        .title{
+            font-weight: 600;
+        }
+    }
+    &-body{
+        position: relative;
+    }
+}

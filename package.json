@@ -1,0 +1,63 @@
+{
+  "name": "example_project",
+  "version": "1.0.0",
+  "description": "Example Project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "prod": "gulp prod"
+  },
+  "keywords": [
+    "doga"
+  ],
+  "author": "Ebru Davutoglu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/register": "^7.8.3",
+    "browser-sync": "^2.26.7",
+    "gulp-babel": "^8.0.0-beta.2"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@sweetalert2/theme-dark": "^3.1.4",
+    "aos": "^2.3.4",
+    "autoprefixer": "^9.7.4",
+    "babelify": "^10.0.0",
+    "bootstrap": "^4.5.0",
+    "browserify": "^16.5.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.4.1",
+    "jquery-scrollify": "^1.0.20",
+    "jquery-validation": "^1.19.2",
+    "jvectormap-content": "^0.1.0",
+    "jvectormap-next": "^3.1.1",
+    "popper.js": "^1.16.1",
+    "swiper": "^5.4.5",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebrudavutoglu/project_example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebrudavutoglu/project_example/issues"
+  },
+  "homepage": "https://github.com/ebrudavutoglu/project_example#readme"
+}

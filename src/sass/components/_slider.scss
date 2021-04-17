@@ -1,0 +1,22 @@
+.swiper{
+    &-button{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 30px;
+        &-next{
+            right: -30px;
+        }
+        &-prev{
+            left: -30px;
+        }
+    }
+}
+
+@media only screen and (max-width:767px){
+    .swiper{
+        &-button{
+            display: none;
+        }
+    }
+}

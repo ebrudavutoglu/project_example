@@ -1,0 +1,133 @@
+
+$white:    #fff !default;
+$gray-100: #C7C7C7 !default;
+$gray-200: #7A7A7A !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000    !default;
+$dark:     #381C17 !default;
+
+$grays: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+$blue:      #002154 !default;
+$dark-blue: #1B3B57 !default;
+$indigo:    #000711 !default;
+$purple:    #6f42c1 !default;
+$pink:      #e83e8c !default;
+$red:       #dc3545 !default;
+$orange:    #fd7e14 !default;
+$yellow:    #ffc107 !default;
+$green:     #28a745 !default;
+$teal:      #20c997 !default;
+$cyan:      #17a2b8 !default;
+
+// Browns
+
+$brown:     #755141 !default;
+$brown-100: #BC5930 !default;
+$brown-200: #966753 !default;
+$brown-300: #D0AE93 !default;
+$brown-400: #002154 !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    "blue":       $blue,
+    "indigo":     $indigo,
+    "purple":     $purple,
+    "pink":       $pink,
+    "red":        $red,
+    "orange":     $orange,
+    "yellow":     $yellow,
+    "green":      $green,
+    "teal":       $teal,
+    "cyan":       $cyan,
+    "white":      $white,
+    "gray":       $gray-600,
+    "gray-dark":  $gray-800
+  ),
+  $colors
+);
+
+$primary:       $blue !default;
+$secondary:     $brown-300 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval:      8% !default;
+
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold:  150 !default;
+
+// Customize the light and dark text colors for use in our YIQ color contrast function.
+$yiq-text-dark:             $gray-900 !default;
+$yiq-text-light:            $white !default;
+
+
+//Social
+$facebook:#3b5998;
+$twitter:#1da1f2;
+$instagram:#c32aa3;
+$linkedin:#007bb5;
+$whatsapp:#25d366;
+$youtube:#ff0000;
+$pinterest:#bd081c;
+
+//Default Colors
+$dBlue:#1360AB;
+$dRed:#FB0F2A;
+$primary:#0058FF;
+$dYellow:#FF9D00;
+$purple:#B100FF;
+$dPurple:#5573E7;
+$dPurpleD:#7A4DE4;
+$darkBlue:#1B2958;
+$darkBlueD:#050812;
+$textColor:#08479F;
+$lightBlue:#00CEFF;
+
+$purpleGrad : linear-gradient($dPurple, $dPurpleD);
+$darkGrad : linear-gradient(-270deg, $darkBlue 50%, $darkBlueD);
+$bubleGrad : linear-gradient(#940E8C, #FA6FF5);
